@@ -35,7 +35,7 @@ local frameHeight = viewportSize.Y * 0.10
 
 local frame = Instance.new("Frame")
 frame.Size = UDim2.new(0, frameWidth, 0, frameHeight)
-frame.Position = UDim2.new(0.5, -frameWidth / 2, 0.5, -frameHeight / 2)
+frame.Position = UDim2.new(0, 840, 0, -4)
 frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 frame.BackgroundTransparency = 0.3
 frame.BorderSizePixel = 0
